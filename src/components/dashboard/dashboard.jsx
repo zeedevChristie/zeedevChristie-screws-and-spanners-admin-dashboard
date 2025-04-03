@@ -13,8 +13,9 @@ const Dashboard = () => {
       <div className="border-4 border-red-600 w-full h-[100vh] overflow-auto">
         <Navbar />
         <Widgets setData={setData} />
-       <div className="flex">
+       <div className="">
        <div>{data.name}</div>
+       {/* <div>{data.action}</div> */}
        </div>
   
       </div>
