@@ -4,6 +4,8 @@ import React from 'react'
 
 
 const WidgetComponent = ({title,onClick, amountCounter, weeklyTotal, monthlyTotal,icon, yearlyTotal,todayTotal,style }) => {
+
+    
     return (
         <div onClick={onClick} className='flex justify-between shadow-lg rounded-lg border-2 border-green-500 px-3 ' style={style}>
             <div className='space-y-2'>
